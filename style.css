@@ -361,8 +361,7 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-  .navbar-items,
-  .navbar {
+  .navbar-items, .navbar {
     flex-direction: column;
     padding: 16px;
   }
@@ -391,13 +390,9 @@ html {
   }
 }
 
-@media only screen and (max-width: 520px) {
-  #btn-top {
-    font-size: 12px;
-    padding: 10px;
-    right: 15px;
-  }
-}
+/* @media only screen and (max-width: 520px) {
+
+} */
 
 @media only screen and (max-width: 400px) {
   #about {
@@ -405,6 +400,11 @@ html {
   }
   #about h1 {
     font-size: 1.5em;
+  }
+  #btn-top {
+    font-size: 12px;
+    padding: 10px;
+    right: 15px;
   }
   #tile1, #tile2, #tile3, #tile4 {
     height: 300px;
