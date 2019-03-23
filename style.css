@@ -390,21 +390,12 @@ html {
   }
 }
 
-/* @media only screen and (max-width: 520px) {
-
-} */
-
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 520px) {
   #about {
     font-size: 14px;
   }
   #about h1 {
     font-size: 1.5em;
-  }
-  #btn-top {
-    font-size: 12px;
-    padding: 10px;
-    right: 15px;
   }
   #tile1, #tile2, #tile3, #tile4 {
     height: 300px;
@@ -421,4 +412,13 @@ html {
     height: 50px;
     width: 100px;
   }
+  #btn-top {
+    font-size: 12px;
+    padding: 10px;
+    right: 15px;
+  }
 }
+
+/* @media only screen and (max-width: 400px) {
+
+} */
