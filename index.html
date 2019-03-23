@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Akash Bhalla's Portfolio Page</title>
+  <link rel="stylesheet" href="glide/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="sal/node_modules/sal.js/dist/sal.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div
+    data-sal-duration="900"
+    data-sal="fade"
+    data-sal-delay="900"
+    data-sal-easing="ease-out-bounce"
+  >
+    <div class="navbar" alt="Navigation bar">
+
+      <div id="nav-icon" class="nav-link nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="navbar-items">
+        <div class="nav-link">
+          <a href="#about" rel="internal">about</a>
+        </div>
+        <div class="nav-link">
+          <a href="#projects-container" rel="internal">projects</a>
+        </div>
+        <div class="nav-link">
+          <a href="#contact-container" rel="internal">contact</a>
+        </div>
+     </nav>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div id="about-container" class="container">
+    <div id="about">
+      <div
+        data-sal-duration="900"
+        data-sal="fade"
+        data-sal-delay="600"
+        data-sal-easing="ease-out-bounce"
+      >
+        <h1>akash bhalla</h1>
+      </div>
+      <div
+        data-sal-duration="900"
+        data-sal="fade"
+        data-sal-delay="900"
+        data-sal-easing="ease-out-bounce"
+      >
+        <span><strong>aspiring web developer 🚀</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Semi-circle -->
+  <div id="sub-container1">
+    <div id="upper-circle" class="semiCircle"></div>
+  </div>
+
+  <div id="sub-container2">
+    <div id="lower-circle" class="semiCircle"></div>
+  </div>
+
+  <!-- Projects section -->
+  <div id="projects-container" class="container">
+    <h2 class="subheader">projects</h2>
+
+    <!-- Glide.js -->
+    <div
+      data-sal-duration="900"
+      data-sal="slide-up"
+      data-sal-delay="600"
+      data-sal-easing="ease-out-bounce"
+    >
+      <div class="glide">
+        <div class="glide__wrapper">
+          <div data-glide-el="track" class="glide__track">
+            <ul class="glide__slides">
+
+              <li class="glide__slide">
+                <div id="tile1" class="projects"  alt="Tile containing information for a simple to do list app">
+                  <h3>To do list</h3>
+                  <div class="overlay">
+                    <div class="info">
+                        <p>Built using React.js</p><br/>
+                        <p>Simple todo list with core functionality</p><br/>
+                        <a href="" target="_blank">Click here to see</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="glide__slide">
+                <div id="tile2" class="projects" alt="Tile containing information for a project called Jammming">
+                    <h3>Jammming<h3>
+                      <div class="overlay">
+                          <div class="info">
+                              <p>Built using React.js</p><br/>
+                              <p>Web music player where you can create playlists linked to your Spotify account</p><br/>
+                              <a href="https://jammming_deploy0.surge.sh/" target="_blank">Click here to see</a>
+                          </div>
+                      </div>
+                </div>
+              </li>
+
+              <li class="glide__slide">
+                <div id="tile3" class="projects" alt="Tile containing information for a Survey Page">
+                  <h3>Survey Page<h3>
+                    <div class="overlay">
+                        <div class="info">
+                            <p>Built using HTML</p><br/>
+                            <p>Simple survey form without backend code</p><br/>
+                            <a href="https://survey_form0.surge.sh/" target="_blank">Click here to see</a>
+                        </div>
+                    </div>
+                </div>
+              </li>
+
+              <li class="glide__slide">
+                <div id="tile4" class="projects" alt="Tile containing information for a project called Ravenous">
+                  <h3>Ravenous<h3>
+                  <div class="overlay">
+                      <div class="info">
+                          <p>Built using React.js</p><br/>
+                          <p>Yelp-like web app used to search for restaurants</p><br/>
+                          <a href="" target="_blank">Click here to see</a>
+                      </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+        </div>
+
+        <!-- Arrow buttons -->
+        <div class="glide__arrows" data-glide-el="controls">
+          <i id="btn-left" class="fas fa-arrow-left glide__arrow glide__arrow--left" data-glide-dir="<"></i>
+          <i id="btn-right" class="fas fa-arrow-right glide__arrow glide__arrow--right" data-glide-dir=">"></i>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Semi-circles -->
+  <div id="sub-container3">
+    <div id="upper-circle2" class="semiCircle"></div>
+  </div>
+
+  <div id="sub-container4">
+    <div id="lower-circle2" class="semiCircle"></div>
+  </div>
+
+  <!-- Scroll to top nav button -->
+  <i class="fas fa-arrow-up" id="btn-top"></i>
+
+  <!-- Contact section -->
+  <div id="contact-container" class="container">
+    <section>
+      <h2 class="subheader">contact</h2>
+
+      <div
+        data-sal-duration="900"
+        data-sal="zoom-in"
+        data-sal-delay="300"
+        data-sal-easing="ease-out-bounce"
+      >
+        <a class="contact-icon" href="https://github.com/a-bhalla/" target="_blank">
+          <i class="fa fa-github" alt="github"></i>
+        </a>
+
+        <a class="contact-icon" href="https://www.linkedin.com/in/akash-bhalla-81150385/"  target="_blank">
+          <i class="fa fa-linkedin-square" alt="linkedin"></i>
+        </a>
+
+        <a class="contact-icon" href="mailto:akashbhalla94@gmail.com" target="_blank">
+          <i id="email" class="fa fa-paper-plane" alt="email"></i>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Scripts -->
+  <script src="sal/node_modules/sal.js/dist/sal.js"></script>
+  <script src="glide/node_modules/@glidejs/glide/dist/glide.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
+<!-- <footer id="footer"></footer> -->
