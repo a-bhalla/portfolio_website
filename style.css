@@ -397,6 +397,9 @@ html {
   #about h1 {
     font-size: 1.5em;
   }
+  .subheader {
+    font-size: 1.5em;
+  }
   #tile1, #tile2, #tile3, #tile4 {
     height: 300px;
     padding: 15px;
@@ -409,8 +412,8 @@ html {
     font-size: 30px;
   }
   .semiCircle {
-    height: 50px;
-    width: 100px;
+    height: 40px;
+    width: 80px;
   }
   #btn-top {
     font-size: 12px;
@@ -418,7 +421,3 @@ html {
     right: 15px;
   }
 }
-
-/* @media only screen and (max-width: 400px) {
-
-} */
