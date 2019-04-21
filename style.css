@@ -323,7 +323,7 @@ html {
 }
 
 #upper-circle2 {
-  background: var(--periwinkle); /* periwinkle */
+  background: var(--periwinkle);
   border-radius: 90px 90px 0 0;
 }
 
@@ -334,7 +334,7 @@ html {
 
 #contact-container {
   background-color: var(--gunmetal);
-  color: var(--dark-pastel-purple); /*dark pastel purple */
+  color: var(--dark-pastel-purple);
 }
 
 .contact-icon {
@@ -347,7 +347,7 @@ html {
 }
 
 .contact-icon:hover {
-  color: var(--dark-pastel-purple); /* dark pastel purple */
+  color: var(--dark-pastel-purple);
 }
 
 #email {
