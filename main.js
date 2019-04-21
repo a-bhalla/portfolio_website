@@ -2,8 +2,9 @@ const navAnimate = document.getElementById('nav-icon');
 const navLinks = document.querySelectorAll('.navbar-items');
 const navToggle = document.querySelector('.nav-toggle');
 const select = document.querySelector('.glide');
-const scrollBtn = document.getElementById('btn-top');
 const scrollAnimations = sal();
+const scrollBtn = document.getElementById('btn-top');
+const isScrolledTop = document.body.scrollTop > 45 || document.documentElement.scrollTop > 45;
 
 // Hamburger menu animation
 animate = () => {
@@ -47,7 +48,7 @@ window.onscroll = () => {
 
 // When the user scrolls down 45px from top, show button
 scrollFunction = () => {
-  document.body.scrollTop > 45 || document.documentElement.scrollTop > 45 ? scrollBtn.style.display = 'block' : scrollBtn.style.display = 'none'
+  scrollBtn.style.display = isScrolledTop ? 'block' : 'none';
 }
 
 scrollBtn.addEventListener('click', () => {
